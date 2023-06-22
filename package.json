@@ -3,9 +3,10 @@
     "typescript": "^5.1.3",
     "typescript-to-lua": "^1.16.2"
   },
-  "name": "tstl-test",
+  "name": "@bainchild/roblox-types-tstl",
   "version": "1.0.0",
-  "main": "src/index.js",
+  "main": "./dist/index",
+  "files": ["dist/**/*.d.ts"],
   "dependencies": {
     "enhanced-resolve": "^5.15.0",
     "function-bind": "^1.1.1",
@@ -18,10 +19,8 @@
     "supports-preserve-symlinks-flag": "^1.0.0",
     "tapable": "^2.2.1"
   },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "",
-  "license": "ISC",
-  "description": ""
+  "author": "bainchild",
+  "license": "Unlicense",
+  "repository": "https://github.com/bainchild/roblox-tstl-types",
+  "description": "Roblox types for typescript-to-lua"
 }

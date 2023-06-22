@@ -6,14 +6,14 @@
     "moduleResolution": "Node",
     "types": ["@typescript-to-lua/language-extensions"],
     "strict": true,
-    "outDir": "build"
+    "outDir": "build",
+    "declaration": true
   },
   "tstl": {
-    "luaTarget": "5.2",
+    "buildMode": "library",
     "noImplicitGlobalVariables": true,
     "noHeader": true,
     "lua51AllowTryCatchInAsyncAwait": true,
-    "luaLibImport": "inline",
     "sourceMapTraceback": false
   }
 }
